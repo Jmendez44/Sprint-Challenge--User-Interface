@@ -212,16 +212,6 @@ p {
     justify-content: center;
 }
 
-/* .middle-content .boxes .box1 {
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .bottom-content {
     display: flex;
@@ -305,4 +295,54 @@ header {
 
 .jumbo img {
 
+}
+
+
+/* about page */
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container {
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+.middle-content-about h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content-container {
+    display: flex;
+    /* margin: 0 2% 20px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.middle-content-info button {
+    
+}
+
+.middle-content-info img, button {
+    margin-bottom: 15px;
+}
+
+.middle-content-info {
+    /* border: 5px solid lightcoral; */
+    /* margin-bottom: 20px; */
+    border-bottom: 1px dashed black;
+    width: 46%;
+    
+}
+
+.bottom-content-about {
+    margin: 40px 0px;
 }
