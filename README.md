@@ -38,7 +38,9 @@ semantic html is html that describes the content within the element
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-display: block 
+display: block  takes up the entire width of the page/container
+
+inline allows elements to align next to each other in a row
 
 3. What are the 4 areas of the box model?
 
