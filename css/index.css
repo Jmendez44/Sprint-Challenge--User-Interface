@@ -370,3 +370,31 @@ header {
     padding: 0 1%;
     padding-bottom: 20px;
 }
+
+/*
+header a {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+}
+
+header a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F33910;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   
+}
+
+header a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+} 
+*/
